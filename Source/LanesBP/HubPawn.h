@@ -14,16 +14,14 @@ class AHubPawn : public APawn
 	GENERATED_UCLASS_BODY()
   
   UPROPERTY()
-  double DistanceMultiplier;
-  
-  UPROPERTY()
   double ShotWidth;
   
   UPROPERTY()
   UClass *Shot;
+  
+  bool *LaneStatus;
 
-protected:
   UFUNCTION(BlueprintCallable, Category="Shot")
-  void SpawnShot();
+  void SpawnShot(uint32 laneNumber, uint32 laneOffset);
 	
 };
