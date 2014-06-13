@@ -1,29 +1,42 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LanesBP", "Intermediate\ProjectFiles\LanesBP.vcxproj", "{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LanesBP", "Intermediate\ProjectFiles\LanesBP.vcxproj", "{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}"
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugGame Editor|Android = DebugGame Editor|Android
 		DebugGame Editor|Windows = DebugGame Editor|Windows
+		DebugGame|Android = DebugGame|Android
 		DebugGame|Windows = DebugGame|Windows
+		Development Editor|Android = Development Editor|Android
 		Development Editor|Windows = Development Editor|Windows
+		Development|Android = Development|Android
 		Development|Windows = Development|Windows
+		Shipping|Android = Shipping|Android
 		Shipping|Windows = Shipping|Windows
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.DebugGame Editor|Windows.ActiveCfg = DebugGame_Editor|x64
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.DebugGame Editor|Windows.Build.0 = DebugGame_Editor|x64
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.DebugGame|Windows.ActiveCfg = DebugGame_RocketGame|x64
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.DebugGame|Windows.Build.0 = DebugGame_RocketGame|x64
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.Development Editor|Windows.ActiveCfg = Development_Editor|x64
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.Development Editor|Windows.Build.0 = Development_Editor|x64
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.Development|Windows.ActiveCfg = Development_RocketGame|x64
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.Development|Windows.Build.0 = Development_RocketGame|x64
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.Shipping|Windows.ActiveCfg = Shipping_RocketGame|Win32
-		{5BF44526-1267-45C3-B0BC-B6A9B42B99C0}.Shipping|Windows.Build.0 = Shipping_RocketGame|Win32
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.DebugGame Editor|Android.ActiveCfg = Development_Game|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.DebugGame Editor|Windows.ActiveCfg = DebugGame_Editor|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.DebugGame Editor|Windows.Build.0 = DebugGame_Editor|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.DebugGame|Android.ActiveCfg = DebugGame_RocketGame|Tegra-Android
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.DebugGame|Android.Build.0 = DebugGame_RocketGame|Tegra-Android
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.DebugGame|Windows.ActiveCfg = DebugGame_RocketGame|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.DebugGame|Windows.Build.0 = DebugGame_RocketGame|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Development Editor|Android.ActiveCfg = Development_Game|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Development Editor|Windows.ActiveCfg = Development_Editor|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Development Editor|Windows.Build.0 = Development_Editor|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Development|Android.ActiveCfg = Development_RocketGame|Tegra-Android
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Development|Android.Build.0 = Development_RocketGame|Tegra-Android
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Development|Windows.ActiveCfg = Development_RocketGame|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Development|Windows.Build.0 = Development_RocketGame|x64
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Shipping|Android.ActiveCfg = Shipping_RocketGame|Tegra-Android
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Shipping|Android.Build.0 = Shipping_RocketGame|Tegra-Android
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Shipping|Windows.ActiveCfg = Shipping_RocketGame|Win32
+		{3C4785AE-9F62-4AAB-8F1D-57D50DB32D1F}.Shipping|Windows.Build.0 = Shipping_RocketGame|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
