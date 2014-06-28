@@ -5,18 +5,11 @@
 	"EngineVersion": "4.1.1-2066463+++depot+UE4-Releases+4.1",
 	"PackageFileUE4Version": 352,
 	"PackageFileLicenseeUE4Version": 0,
-	"EngineAssociation": "4.2",
+	"EngineAssociation": "4.1",
 	"FriendlyName": "",
 	"Description": "",
 	"Category": "",
 	"CreatedBy": "",
 	"CreatedByURL": "",
-	"Modules": [
-		{
-			"Name": "LanesBP",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
 	"EpicSampleNameHash": "0"
 }
